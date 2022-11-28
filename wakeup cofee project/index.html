@@ -1,0 +1,283 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Wakeup coffee</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+       <style>
+        #logo img {
+            width: 105px;
+            
+            
+        }
+        #header ul li {
+            display: inline-block;
+            margin: 10px;
+            padding: 1px;
+            font-size:large;
+            color: rgb(71, 2, 139);
+        }
+        #header {
+            display: flex ;
+            justify-content: space-between;
+           
+        } 
+        #header ul {
+     
+            padding: 10px;
+        }
+        #main{
+            display: flex;
+            
+        }
+       #md1,#md2{
+       
+        justify-content: flex-end;
+        font-size: xx-large;
+       
+       }
+       #md3,#md4{
+         display: flex;
+         float: left;
+         
+       }
+       #bodytext{
+         display: flex;
+         padding: 50px;
+         text-size-adjust: 30px;
+         margin-left: 40px;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+       }
+       
+        
+     
+       #footer{
+        display: flex;
+       background-color: black;
+        width: 100%;
+        height: 250px;
+        justify-content:space-between
+       }
+      
+       #leftpart{
+        width: 100px;
+        height: 20%;
+        margin: 10px;
+       }
+       #rightpart {
+        display: flex;
+        
+       }
+        #middlepart{
+            color: white;
+            padding-left: 370px; 
+            
+        }
+       
+        
+        
+       .fa {
+            padding: 10px;
+            font-size: 25px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin:  25px 10px;
+            float: left;
+            
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+
+            .fa-google {
+            background: #dd4b39;
+            color: white;
+            }
+            .fa-instagram {
+            background: #125688;
+            color: white;}
+                
+       
+       .submenu{ 
+        display: none;
+       }
+    
+
+       #menu li:hover .submenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(234, 233, 235, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:medium;
+       
+       
+       
+       }
+       a{
+        text-decoration: none;
+        font-size: large;
+
+        }
+        #text1{
+        position:relative;
+        top: -140px;
+        left: 30px;
+        color: rgb(63, 0, 0);
+        font-family:'Times New Roman', Times, serif ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #text2{
+        position:relative;
+        top: -140px;
+        left: 30px;
+        color: #ffffff00;
+        font-family:'Times New Roman', Times, serif ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+        #newimg{
+            justify-content:flex-end;
+        }
+        #bt{
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            font-size:medium;
+            color: rgb(0, 0, 0);
+            border-color: rgb(255, 255, 255);
+        }
+       
+
+       
+    
+      
+
+      
+
+       </style>
+    </head>
+    <body  >
+        <div id="header">
+            <div id="logo">
+              
+                <a href="index.html">  
+                <img src="./Assets/Logo/logo.png" alt="index.html"  >
+            </a> 
+            </div>
+            <b>
+                <ul id="menu">
+                                                                                         
+                   <li> <a href="aboutus.html" > About Us</a></li>
+                   <li >
+                    Coffee Blends
+                     <ul class="submenu">
+                        <li> <a href="uniqueblends.html">UniqueBlends </a> </li>
+                        
+                        <li> <a href="classics.html"> classics </a></li>
+                     </ul>
+                   </li>
+                   <li > <a href="brewing-equipment.html"> Brewing Equipment </a></li>
+                   <li  > <a href="Learn-with us.html">Learn With Us </a></li>
+                   <li > <a href="Contact.html">Contact</a> </li>
+                   
+               </ul>
+            </b>
+        </div>
+         <hr>
+         <br>
+        <div id="main">
+
+            <div id="md1">
+                <img src="./Assets/waitress-2376728_960_720.jpg" alt="coffee" width="660px" height="500px" >
+                <p id="text1">
+                     <a href="our cafes.html" style="font-size:1cm ;color:
+                      #ffffffec;
+                      font-style: italic;">
+                       <b> OurCafes.visit.in </b> <br>
+                       <Button id="bt"><b>Learnmore</b></Button>
+                    </a> 
+                </p>    
+            </div>
+            <div id="md2">
+                <img src="./Assets/lcoffee-819362_960_720.jpg" alt="coffee" width="700px" height="500px" >
+                <p id="text2">
+                    <a href="the source.html" style="font-size:1cm ;color: #020000;font-style: italic;">
+                       <b>Source..</b><br>
+                       <Button id="bt"><b>Learnmore</b></Button>
+                     </a> 
+               </p>    
+            </div>
+          </div>
+          <div>
+            <img src="./Assets/pexels-viktoria-alipatova-2074130.jpg" alt="shop image" width="1350px" height="800px">
+        </div>
+        <div id="md3"> 
+            <img src="./Assets/cafe-1618628_960_720.jpg" alt="cafe" width="665px" height="400px">        
+          </div>
+         <div id="md4"> 
+            <img src="./Assets/lllf.jpg" alt="image" width="668px" height="400px">
+        </div> 
+          <br>
+          <br>
+          <br>
+          <br>
+        
+          <div id="bodytext">
+             <b> <div id="body text1">“WakeCup isn’t just a call to rise and win, it is our mission to tap into the finest plantations and estates for the greatest coffee that our planet produces. Whether it’s a steaming mug of straight up cappuccino, a tumbler of flavoursome Indian filter kaapi, or a tall glass of vanilla matcha latte - we’ve got the blend that puts the zing in your step and the life in your day!</div></b>
+          </div>
+          <br>
+          <br>
+
+          <div id="footer">
+
+            <div id="leftpart">
+               <a href="index.html">
+                <img src="./Assets/Logo/logo.png" alt="logo" width="120px">
+               </a>
+           
+            </div>
+           
+            <div id="middlepart">
+                
+                <h3>Products</h3>
+                <a href="our cafes.html"><h4><u style="color: white">Our coffee</u></h4></a>
+                <a href="https://www.flipkart.com/coffee-makers/pr?sid=j9e,m38,wqo">
+                 <h4><u style="color:white ;">Coffee machine</u></h4></a>
+                <h4><u>Service</u></h4>
+            </div>
+            <div style="color: white;">
+                <h3 >Need help ?</h3>
+                <a href="Contact.html"> <h4 style="color:white ;"><u>customer care</u></h4></a>
+                <h4><u> call:+764735498</u></h4>
+             </div>
+               
+
+            <div id="rightpart">
+                <h3 style="color:white ; padding: 10px;">Follow us on</h3>
+              <div id="b1">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>  
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.google.co.in/" class="fa fa-google"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+              </div>
+            </div>
+            
+          </div>
+          
+          
+
+      
+    
+    </body>
+</html>
